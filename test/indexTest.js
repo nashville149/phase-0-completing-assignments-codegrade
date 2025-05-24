@@ -13,9 +13,9 @@ describe("This assignment", () => {
 
   it("has a file named myfile.md", () => {
     chai.assert.isFile(
-      "./myfile.md",
+      path.join(__dirname, "../myfile.md"),
       "No file named 'myfile.md' found. Create one in the root of the assignment's directory"
     );
   });
-}
+});
 
