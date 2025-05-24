@@ -17,4 +17,5 @@ describe("This assignment", () => {
       "No file named 'myfile.md' found. Create one in the root of the assignment's directory"
     );
   });
-});
+}
+
